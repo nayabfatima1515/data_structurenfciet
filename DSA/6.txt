@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int i=54;
+float a=3.14;
+char *ii,*aa;
+
+ii=(char*)&i;
+aa=(char*)&a;
+printf("\nAddress contained in ii=%u", ii);
+printf("\nAddress contained in aa=%u", aa);
+printf("\nValue at the Address contained in ii=%d", *ii);
+printf("\nValue at the Address contained in aa=%d", aa);
+}

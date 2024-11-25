@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+char c,*cc;
+int i,*ii;
+float a,*aa;
+c='A';
+i=54;
+a=3.14;
+cc=&c;
+ii=&i;
+aa=&a;
+printf("\nAddress contained in cc=%u", cc);
+printf("\nAddress contained in ii=%u", ii);
+printf("\nAddress contained in aa=%u", aa);
+printf("\n value of c=%u", *cc);
+printf("\n value of i=%u", *ii);
+printf("\n value of a=%u", *aa);
+}
